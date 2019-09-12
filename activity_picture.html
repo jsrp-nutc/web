@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSRP.NUTC-活動照片</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Course Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+</head>
+<body>
+    <style>
+        .accordion_panel img {
+            width: 32%;
+            height: auto;
+            float: left;
+            margin: 10px 10px 0 auto;
+        }
+
+        .titledate {
+            float: left;
+            width: 100%;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+
+        h2 {
+            margin-bottom: 0px;
+        }
+    </style>
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header d-flex flex-row">
+            <div class="header_content d-flex flex-row align-items-center">
+                <!-- Logo -->
+                <div class="logo_container">
+                    <div class="logo">
+                        <a href="index.html" title="首頁"> <img src="images/logo2.jpg" alt="National Taichung Univesrsity of Science and Technology"></a>
+                    </div>
+                </div>
+
+                <!-- Main Navigation -->
+                <nav class="main_nav_container">
+                    <div class="main_nav">
+                        <ul class="main_nav_list">
+                            <li class="main_nav_item"><a href="index.html">首頁</a></li>
+                            <li class="main_nav_item"><a href="team.html">團隊成員</a></li>
+                            <li class="main_nav_item">
+                                <a href="point1.html">相關辦法</a>
+                                <ul>
+                                    <li><a href="point1.html">辦公室設置要點</a></li>
+                                    <li><a href="point2.html">遴聘業師協同教學實施要點</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_nav_item"><a href="courses.html">學程介紹</a></li>
+                            <li class="main_nav_item"><a href="news.html">表單下載</a></li>
+                            <li class="main_nav_item"><a href="elements.html">場域建置</a></li>
+                            <li class="main_nav_item">
+                                <a href="education_resources.html">教學資源</a>
+                                <ul>
+                                    <li><a href="education_video.html">教育訓練影片</a></li>
+                                    <li><a href="education_equipment.html">設備清單</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_nav_item">
+                                <a href="activity_picture.html">活動紀錄</a>
+                                <ul>
+                                    <li><a href="activity_picture.html">活動照片</a></li>
+                                    <li><a href="activity_video.html">活動影片</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_nav_item"><a href="result.html">計畫成果</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="header_side d-flex flex-row justify-content-center align-items-center">
+                <img src="images/phone-call.svg" alt="">
+                <span>04-2219-5532</span>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger_container">
+                <i class="fas fa-bars trans_200"></i>
+            </div>
+
+        </header>
+
+        <!-- Menu -->
+        <div class="menu_container menu_mm">
+
+            <!-- Menu Close Button -->
+            <div class="menu_close_container">
+                <div class="menu_close"></div>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="menu_inner menu_mm">
+                <div class="menu menu_mm">
+                    <ul class="menu_list menu_mm">
+                        <li class="menu_item menu_mm"><a href="index.html">首頁</a></li>
+                        <li class="menu_item menu_mm"><a href="team.html">團隊成員</a></li>
+                        <li class="menu_item menu_mm"><a href="point1.html">辦公室設置要點</a></li>
+                        <li class="menu_item menu_mm"><a href="point2.html">遴聘業師協同教學實施要點</a></li>
+                        <li class="menu_item menu_mm"><a href="courses.html">學程介紹</a></li>
+                        <li class="menu_item menu_mm"><a href="news.html">表單下載</a></li>
+                        <li class="menu_item menu_mm"><a href="elements.html">場域建置</a></li>
+                        <li class="menu_item menu_mm"><a href="education_resources.html">教學資源</a></li>
+                        <li class="menu_item menu_mm"><a href="education_video.html">教育訓練影片</a></li>
+                        <li class="menu_item menu_mm"><a href="education_equipment.html">設備清單</a></li>
+                        <li class="menu_item menu_mm"><a href="activity_picture.html">活動照片</a></li>
+                        <li class="menu_item menu_mm"><a href="activity_video.html">活動影片</a></li>
+                        <li class="menu_item menu_mm"><a href="result.html">計畫成果</a></li>
+                    </ul>
+
+                    <!-- Menu Social
+
+                    <div class="menu_social_container menu_mm">
+                        <ul class="menu_social menu_mm">
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <div class="menu_copyright menu_mm">NUTC All rights reserved</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Home -->
+
+        <div class="home">
+            <div class="home_background_container prlx_parent">
+                <div class="home_background prlx" style="        background-image: url(images/NBG.png)"></div>
+            </div>
+            <div class="home_content">
+                <h1>活動照片</h1>
+            </div>
+        </div>
+
+        <!-- News -->
+
+        <div class="news">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-lg-12" style="        margin-top: -20px">
+                        <div class="elements_title">活動照片列表</div>
+                        <br />
+                        <div class="news_posts">
+                          
+
+                            <div class="elements_accordions">
+                                <div class="accordion_container">
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/09/09</span>&nbsp;&nbsp;&nbsp;<h2>活動說明會</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080909活動說明會/1.jpg" />
+                                            <img src="images/活動紀錄/1080909活動說明會/2.jpg" />
+                                            <img src="images/活動紀錄/1080909活動說明會/3.jpg" />
+                                            <img src="images/活動紀錄/1080909活動說明會/4.jpg" />
+                                            <img src="images/活動紀錄/1080909活動說明會/5.jpg" />
+                                            <img src="images/活動紀錄/1080909活動說明會/6.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/08/22</span>&nbsp;&nbsp;&nbsp;<h2>智慧物流場域教室建置</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080822智慧物流場域教室建置/3.jpg" />
+                                            <img src="images/活動紀錄/1080822智慧物流場域教室建置/4.jpg" />
+                                            <img src="images/活動紀錄/1080822智慧物流場域教室建置/5.jpg" />
+                                            <img src="images/活動紀錄/1080822智慧物流場域教室建置/1.jpg" />
+                                            <img src="images/活動紀錄/1080822智慧物流場域教室建置/2.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/08/15</span>&nbsp;&nbsp;&nbsp;<h2>智慧場域教室建置協調會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080815場域討論/1.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/2.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/3.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/4.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/5.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/6.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/7.jpg" />
+                                            <img src="images/活動紀錄/1080815場域討論/8.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/08/15</span>&nbsp;&nbsp;&nbsp;<h2>第三次管考會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080815第三次管考會議/01.jpg" />
+                                            <img src="images/活動紀錄/1080815第三次管考會議/02.jpg" />
+                                            <img src="images/活動紀錄/1080815第三次管考會議/03.jpg" />
+                                            <img src="images/活動紀錄/1080815第三次管考會議/04.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/08/06</span>&nbsp;&nbsp;&nbsp;<h2>學程課程規劃調整會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080806學程課程規劃調整會議/1.jpg" />
+                                            <img src="images/活動紀錄/1080806學程課程規劃調整會議/2.jpg" />
+                                            <img src="images/活動紀錄/1080806學程課程規劃調整會議/3.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/07/19</span>&nbsp;&nbsp;&nbsp;<h2>人流分析、互動看板 交貨</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080719人流分析、互動看板交貨/1.jpg" />
+                                            <img src="images/活動紀錄/1080719人流分析、互動看板交貨/2.jpg" />
+                                            <img src="images/活動紀錄/1080719人流分析、互動看板交貨/3.jpg" />
+                                            <img src="images/活動紀錄/1080719人流分析、互動看板交貨/4.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/07/18</span>&nbsp;&nbsp;&nbsp;<h2>場域規劃會議與場勘</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080718場域規劃會議與場勘/1.jpg" />
+                                            <img src="images/活動紀錄/1080718場域規劃會議與場勘/2.jpg" />
+                                            <img src="images/活動紀錄/1080718場域規劃會議與場勘/3.jpg" />
+                                            <img src="images/活動紀錄/1080718場域規劃會議與場勘/4.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/07/12</span>&nbsp;&nbsp;&nbsp;<h2>場域建置會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080712場域建置會議/4.jpg" />
+                                            <img src="images/活動紀錄/1080712場域建置會議/5.jpg" />
+                                            <img src="images/活動紀錄/1080712場域建置會議/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/07/04</span>&nbsp;&nbsp;&nbsp;<h2>優化計畫學程規畫說明會</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/1.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/2.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/3.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/4.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/5.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/6.jpg" />
+                                            <img src="images/活動紀錄/1080704優化計畫學程規畫說明會/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/28</span>&nbsp;&nbsp;&nbsp;<h2>場域建置會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080628場域建置會議/1.jpg" />
+                                            <img src="images/活動紀錄/1080628場域建置會議/2.jpg" />
+                                            <img src="images/活動紀錄/1080628場域建置會議/3.jpg" />
+                                            <img src="images/活動紀錄/1080628場域建置會議/4.jpg" />
+                                            <img src="images/活動紀錄/1080628場域建置會議/5.jpg" />
+                                            <img src="images/活動紀錄/1080628場域建置會議/6.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/26</span>&nbsp;&nbsp;&nbsp;<h2>系列講座活動</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080626系列講座活動/1.jpg" />
+                                            <img src="images/活動紀錄/1080626系列講座活動/2.jpg" />
+                                            <img src="images/活動紀錄/1080626系列講座活動/3.jpg" />
+                                            <img src="images/活動紀錄/1080626系列講座活動/4.jpg" />
+                                            <img src="images/活動紀錄/1080626系列講座活動/5.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/25</span>&nbsp;&nbsp;&nbsp;<h2>行動式物聯網展示系統 驗收</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080625行動式物聯網展示系統驗收/1.jpg" />
+                                            <img src="images/活動紀錄/1080625行動式物聯網展示系統驗收/2.jpg" />
+                                            <img src="images/活動紀錄/1080625行動式物聯網展示系統驗收/3.jpg" />
+                                            <img src="images/活動紀錄/1080625行動式物聯網展示系統驗收/4.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/24</span>&nbsp;&nbsp;&nbsp;<h2>場域建置委員評選會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080624場域建置委員評選會議/1.jpg" />
+                                            <img src="images/活動紀錄/1080624場域建置委員評選會議/2.jpg" />
+                                            <img src="images/活動紀錄/1080624場域建置委員評選會議/3.jpg" />
+                                            <img src="images/活動紀錄/1080624場域建置委員評選會議/4.jpg" />
+                                            <img src="images/活動紀錄/1080624場域建置委員評選會議/5.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/17</span>&nbsp;&nbsp;&nbsp;<h2>實景眼動儀 驗收</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/1.jpg" />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/2.jpg" />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/3.jpg" />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/4.jpg" />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/5.jpg" />
+                                            <img src="images/活動紀錄/1080617實景眼動儀驗收/6.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/17</span>&nbsp;&nbsp;&nbsp;<h2>工研院校外參訪活動</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/1.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/2.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/3.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/4.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/5.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/6.jpg" />
+                                            <img src="images/活動紀錄/1080617工研院校外參訪活動/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/06/06</span>&nbsp;&nbsp;&nbsp;<h2>畢業花束活動-搶救畢花大作戰</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080606畢業花束活動-搶救畢花大作/3.jpg" />
+                                            <img src="images/活動紀錄/1080606畢業花束活動-搶救畢花大作/4.jpg" />
+                                            <img src="images/活動紀錄/1080606畢業花束活動-搶救畢花大作/5.jpg" />
+                                            <img src="images/活動紀錄/1080606畢業花束活動-搶救畢花大作/6.jpg" />
+                                            <img src="images/活動紀錄/1080606畢業花束活動-搶救畢花大作/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/30</span>&nbsp;&nbsp;&nbsp;<h2>盈錫 智慧製造參訪</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080530盈錫-智慧製造參訪/3.jpg" />
+                                            <img src="images/活動紀錄/1080530盈錫-智慧製造參訪/4.jpg" />
+                                            <img src="images/活動紀錄/1080530盈錫-智慧製造參訪/5.jpg" />
+                                            <img src="images/活動紀錄/1080530盈錫-智慧製造參訪/6.jpg" />
+                                            <img src="images/活動紀錄/1080530盈錫-智慧製造參訪/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/27</span>&nbsp;&nbsp;&nbsp;<h2>實景眼動儀 交貨</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/1.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/2.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/3.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/4.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/5.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/6.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/7.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/8.jpg" />
+                                            <img src="images/活動紀錄/1080527實景眼動儀交貨/9.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/27</span>&nbsp;&nbsp;&nbsp;<h2>眼動儀教育訓練課程</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080527眼動儀教育訓練課程/1.jpg" />
+                                            <img src="images/活動紀錄/1080527眼動儀教育訓練課程/2.jpg" />
+                                            <img src="images/活動紀錄/1080527眼動儀教育訓練課程/3.jpg" />
+                                            <img src="images/活動紀錄/1080527眼動儀教育訓練課程/4.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/23</span>&nbsp;&nbsp;&nbsp;<h2>場域建置採購案-第一次會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080523場域建置採購案第一次會議/1.jpg" />
+                                            <img src="images/活動紀錄/1080523場域建置採購案第一次會議/2.jpg" />
+                                            <img src="images/活動紀錄/1080523場域建置採購案第一次會議/3.jpg" />
+                                            <img src="images/活動紀錄/1080523場域建置採購案第一次會議/4.jpg" />
+                                            <img src="images/活動紀錄/1080523場域建置採購案第一次會議/5.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/22</span>&nbsp;&nbsp;&nbsp;<h2>第二次管考會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080522第二次管考會議/01.jpg" />
+                                            <img src="images/活動紀錄/1080522第二次管考會議/02.jpg" />
+                                            <img src="images/活動紀錄/1080522第二次管考會議/03.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/05/03</span>&nbsp;&nbsp;&nbsp;<h2>行動式物聯網展示系統設備驗收</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/1.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/2.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/3.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/4.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/5.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/6.jpg" />
+                                            <img src="images/活動紀錄/1080503平板59台驗收/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/04/27</span>&nbsp;&nbsp;&nbsp;<h2>創創黑客松活動</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080427黑客松活動現場/1.jpg" />
+                                            <img src="images/活動紀錄/1080427黑客松活動現場/2.jpg" />
+                                            <img src="images/活動紀錄/1080427黑客松活動現場/3.jpg" />
+                                            <img src="images/活動紀錄/1080427黑客松活動現場/4.jpg" />
+                                            <img src="images/活動紀錄/1080427黑客松活動現場/5.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/04/25</span>&nbsp;&nbsp;&nbsp;<h2>福爾摩沙雲創基地校外參訪</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080425福爾摩沙雲創基地校外參訪/1.jpg" />
+                                            <img src="images/活動紀錄/1080425福爾摩沙雲創基地校外參訪/2.jpg" />
+                                            <img src="images/活動紀錄/1080425福爾摩沙雲創基地校外參訪/3.jpg" />
+                                            <img src="images/活動紀錄/1080425福爾摩沙雲創基地校外參訪/4.jpg" />
+                                            <img src="images/活動紀錄/1080425福爾摩沙雲創基地校外參訪/5.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/04/13</span>&nbsp;&nbsp;&nbsp;<h2>企業代訓</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080413企業代訓/1.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/2.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/3.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/4.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/5.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/6.jpg" />
+                                            <img src="images/活動紀錄/1080413企業代訓/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion_container">
+                                        <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/04/09</span>&nbsp;&nbsp;&nbsp;<h2>學程規劃及設備採購相關討論會議</h2></div>
+                                        <div class="accordion_panel">
+                                            <br />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/1.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/2.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/3.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/4.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/5.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/6.jpg" />
+                                            <img src="images/活動紀錄/1080409臨時討論計畫學程規劃及採購進度相關事宜/7.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/04/08</span>&nbsp;&nbsp;&nbsp;<h2>業師授課</h2></div>
+                                    <div class="accordion_panel">
+                                        <div class="titledate">2019/04/08</div>
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151646.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151649.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151752.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151800.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151810.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151829.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080408/IMG20190408151838.jpg" />
+                                        <div class="titledate">2019/04/02</div>
+                                        <img src="images/活動紀錄/業師授課/1080402/1.png" />
+                                        <img src="images/活動紀錄/業師授課/1080402/2.png" />
+                                        <img src="images/活動紀錄/業師授課/1080402/3.png" />
+                                        <img src="images/活動紀錄/業師授課/1080402/4.png" />
+                                        <img src="images/活動紀錄/業師授課/1080402/5.png" />
+                                        <div class="titledate">2019/04/01</div>
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151052.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151124.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151136.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151138.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151156.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151212.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080401/IMG20190401151214.jpg" />
+                                        <div class="titledate">2019/03/26</div>
+                                        <img src="images/活動紀錄/業師授課/1080326/1.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080326/2.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080326/3.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080326/4.jpg" />
+                                        <div class="titledate">2019/03/25</div>
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325145354.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325145409.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325145429.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325145517.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325150838.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080325/IMG20190325150901.jpg" />
+                                        <div class="titledate">2019/03/18</div>
+                                        <img src="images/活動紀錄/業師授課/1080318/IMG_20190318_151652.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080318/IMG_20190318_151706.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080318/IMG_20190318_162421.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080318/IMG_20190318_162432.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080318/IMG_20190318_162438.jpg" />
+                                        <div class="titledate">2019/03/11</div>
+                                        <img src="images/活動紀錄/業師授課/1080311/IMG_20190311_145228.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/IMG_20190311_150256.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/IMG_20190311_153104.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/IMG_20190311_133728.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/MVIMG_20190311_133339.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/MVIMG_20190311_134236.jpg" />
+                                        <img src="images/活動紀錄/業師授課/1080311/S__75440154.jpg" />
+                                    </div>
+                                </div>
+                                <div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/03/26</span>&nbsp;&nbsp;&nbsp;<h2>第一次管考會議</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1080326第一次管考會議/01.jpg" />
+                                        <img src="images/活動紀錄/1080326第一次管考會議/02.jpg" />
+                                        <img src="images/活動紀錄/1080326第一次管考會議/03.jpg" />
+                                        <img src="images/活動紀錄/1080326第一次管考會議/04.jpg" />
+                                    </div>
+                                </div> 
+                                <div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/03/07</span>&nbsp;&nbsp;&nbsp;<h2>無店面零售公會產學合作討論會議</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1080307無店面零售商/1.jpg" />
+                                        <img src="images/活動紀錄/1080307無店面零售商/2.jpg" />
+                                        <img src="images/活動紀錄/1080307無店面零售商/3.jpg" />
+                                        <img src="images/活動紀錄/1080307無店面零售商/4.jpg" />
+                                        <img src="images/活動紀錄/1080307無店面零售商/5.jpg" />
+                                        <img src="images/活動紀錄/1080307無店面零售商/6.jpg" />
+                                    </div>
+                                </div>
+                                <!--<div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/02/20</span>&nbsp;&nbsp;&nbsp;<h2>管考會議</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0002.jpg" />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0003.jpg" />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0004.jpg" />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0005.jpg" />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0006.jpg" />
+                                        <img src="images/活動紀錄/1080220管考會議/1080220 1000計畫籌劃討論_190328_0008.jpg" />
+                                    </div>
+                                </div>--> 
+                                <div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/02/15</span>&nbsp;&nbsp;&nbsp;<h2>場域建置展場規劃會議</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1080215進駐規劃/1.jpg" />
+                                        <img src="images/活動紀錄/1080215進駐規劃/2.jpg" />
+                                        <img src="images/活動紀錄/1080215進駐規劃/3.jpg" />
+                                        <img src="images/活動紀錄/1080215進駐規劃/4.jpg" />
+                                    </div>
+                                </div>
+                                <div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2019/01/03</span>&nbsp;&nbsp;&nbsp;<h2>招生說明會</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0003.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0005.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0012.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0013.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0014.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0015.jpg" />
+                                        <img src="images/活動紀錄/1080103招生說明會/20190103 技優生招生說明會2_190327_0016.jpg" />
+                                    </div>
+                                </div>
+                                <div class="accordion_container">
+                                    <div class="accordion d-flex flex-row align-items-center"><span style="        float: left;">2018/12/07</span>&nbsp;&nbsp;&nbsp;<h2>新民高中參訪專題成果展</h2></div>
+                                    <div class="accordion_panel">
+                                        <br />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0004.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0019.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0021.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0030.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0035.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0055.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0059.jpg" />
+                                        <img src="images/活動紀錄/1071207新民高中參訪專題成果展/20181207新民高中參訪專題成果展_190328_0064.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- News Post -->
+                            <!--<div class="news_post">
+                                <div class="news_post_image">
+                                    <img src="images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
+                                </div>
+                                <div class="news_post_top d-flex flex-column flex-sm-row">
+                                    <div class="news_post_date_container">
+                                        <div class="news_post_date d-flex flex-column align-items-center justify-content-center">
+                                            <div>18</div>
+                                            <div>dec</div>
+                                        </div>
+                                    </div>
+                                    <div class="news_post_title_container">
+                                        <div class="news_post_title">
+                                            <a href="news_post.html">Our new courses just for you?</a>
+                                        </div>
+                                        <div class="news_post_meta">
+                                            <span class="news_post_author"><a href="#">By Christian Smith</a></span>
+                                            <span>|</span>
+                                            <span class="news_post_comments"><a href="#">3 Comments</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news_post_text">
+                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+                                </div>
+                                <div class="news_post_button text-center trans_200">
+                                    <a href="news_post.html">Read More</a>
+                                </div>
+                            </div>-->
+                            <!-- News Post -->
+                            <!--<div class="news_post">
+                                <div class="news_post_image">
+                                    <img src="images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
+                                </div>
+                                <div class="news_post_top d-flex flex-column flex-sm-row">
+                                    <div class="news_post_date_container">
+                                        <div class="news_post_date d-flex flex-column align-items-center justify-content-center">
+                                            <div>18</div>
+                                            <div>dec</div>
+                                        </div>
+                                    </div>
+                                    <div class="news_post_title_container">
+                                        <div class="news_post_title">
+                                            <a href="news_post.html">Why take our graduate program??</a>
+                                        </div>
+                                        <div class="news_post_meta">
+                                            <span class="news_post_author"><a href="#">By Christian Smith</a></span>
+                                            <span>|</span>
+                                            <span class="news_post_comments"><a href="#">3 Comments</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news_post_text">
+                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+                                </div>
+                                <div class="news_post_button text-center trans_200">
+                                    <a href="news_post.html">Read More</a>
+                                </div>
+                            </div>-->
+
+                        </div>
+
+                    </div>
+
+                    <!-- Sidebar Column -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+
+                <!-- Newsletter -->
+                <!--<div class="newsletter">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section_title text-center">
+                                <h1>Subscribe to newsletter</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="newsletter_form_container mx-auto">
+                                <form action="post">
+                                    <div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+                                        <input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                                        <button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <!-- Footer Content -->
+
+                <div class="footer_content">
+                    <div class="row">
+                        <!-- Footer Column - About -->
+                        <div class="col-lg-3 footer_col">
+                            <!-- Logo -->
+                            <div class="logo_container">
+                                <div class="logo">
+                                    <img style="        width: 250px;
+        position: absolute" src="images/WLOGO_51x43.png" alt="">
+                                    <!--<span>course</span>-->
+                                </div>
+                            </div>
+                            <!--<p class="footer_about_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum, tempor lacus.</p>-->
+                        </div>
+
+                        <!-- Footer Column - Menu -->
+
+                        <div class="col-lg-3 footer_col">
+                            <div class="footer_column_title">Menu</div>
+                            <div class="footer_column_content">
+                                <ul>
+                                    <li class="footer_list_item"><a href="index.html">首頁</a></li>
+                                    <li class="footer_list_item"><a href="team.html">團隊成員</a></li>
+                                    <li class="footer_list_item"><a href="point1.html">辦公室設置要點</a></li>
+                                    <li class="footer_list_item"><a href="point2.html">遴聘業師協同教學實施要點</a></li>
+                                    <li class="footer_list_item"><a href="courses.html">學程介紹</a></li>
+                                    <li class="footer_list_item"><a href="news.html">表單下載</a></li>
+                                    <li class="footer_list_item"><a href="elements.html">場域建置</a></li>
+                                    <li class="footer_list_item"><a href="education_resources.html">教學資源</a></li>
+                                    <li class="footer_list_item"><a href="education_video.html">教育訓練影片</a></li>
+                                    <li class="footer_list_item"><a href="education_equipment.html">設備清單</a></li>
+                                    <li class="footer_list_item"><a href="activity_picture.html">活動照片</a></li>
+                                    <li class="footer_list_item"><a href="activity_video.html">活動影片</a></li>
+                                    <li class="footer_list_item"><a href="result.html">計畫成果</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Column - Usefull Links -->
+                        <!--<div class="col-lg-3 footer_col">
+                            <div class="footer_column_title">Usefull Links</div>
+                            <div class="footer_column_content">
+                                <ul>
+                                    <li class="footer_list_item"><a href="#">Testimonials</a></li>
+                                    <li class="footer_list_item"><a href="#">FAQ</a></li>
+                                    <li class="footer_list_item"><a href="#">Community</a></li>
+                                    <li class="footer_list_item"><a href="#">Campus Pictures</a></li>
+                                    <li class="footer_list_item"><a href="#">Tuitions</a></li>
+                                </ul>
+                            </div>
+                        </div>-->
+                        <!-- Footer Column - Contact -->
+
+                        <div class="col-lg-3 footer_col">
+                            <div class="footer_column_title">Contact</div>
+                            <div class="footer_column_content">
+                                <ul>
+                                    <li class="footer_contact_item">
+                                        <div class="footer_contact_icon">
+                                            <img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                        </div>
+                                        台中市北區三民路三段129號 <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;資訊大樓一樓 <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;優化技職計畫專案辦公室 (2107室)
+                                    </li>
+                                    <li class="footer_contact_item">
+                                        <div class="footer_contact_icon">
+                                            <img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                        </div>
+                                        04-2219-5532
+                                    </li>
+                                    <li class="footer_contact_item">
+                                        <div class="footer_contact_icon">
+                                            <img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+                                        </div>pj0023@nutc.edu.tw
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Footer Copyright -->
+
+                <div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+                    <div class="footer_copyright">
+                        <span>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </span>
+                    </div>
+                    <!--<div class="footer_social ml-sm-auto">
+                        <ul class="menu_social">
+                            <li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>-->
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="js/news_custom.js"></script>
+    <script src="js/elements_custom.js"></script>
+
+
+</body>
+</html>
